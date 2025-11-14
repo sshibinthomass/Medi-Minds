@@ -17,6 +17,10 @@ dependencies = [
   "httpx>=0.28.0",
   "distro",
   "jiter",
+  "fastapi>=0.104.0",
+  "uvicorn[standard]>=0.24.0",
+  "websockets>=12.0",
+  "python-multipart>=0.0.6",
 ]
 requires-python = ">= 3.9"
 classifiers = [
